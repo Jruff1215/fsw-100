@@ -1,0 +1,145 @@
+.nav {
+    position: fixed;
+    top: 15px;
+    bottom: 15px;
+padding: 5px;
+}
+
+.image1 {
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    float: left;
+    padding-right: 25px;
+    padding-top: 25px;
+
+}
+
+.pittsburgh {
+    font-size: 35px;
+    position: absolute;
+    left: 305px;
+    top: 40px;
+    padding: 5px;
+}
+
+.date1 {
+    position: absolute;
+    top: 110px;
+    left: 305px;
+    padding: 5px;
+}
+
+.steelers1 {
+    position: absolute;
+    left: 300px;
+    top: 185px;
+    float: right;
+    width: 650px;
+    height: auto;
+    padding: 5px;
+
+}
+
+.image2 {
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    top: 400px;
+    left: 18px;
+    float: left;
+}
+
+.pittsburgh2 {
+    font-size: 35px;
+    position: absolute;
+    top: 365px;
+    left: 300px;
+    padding: 5px;
+}
+
+.date2 {
+    position: absolute;
+    top: 435px;
+    left: 300px;
+    padding: 5px;
+}
+.steelers2 {
+    position: absolute;
+    left: 300px;
+    top: 510px;
+    float: right;
+    width: 650px;
+    height: auto;
+    padding: 5px;
+}
+
+.image3, .pittsburgh3, .date3, .steelers3 {
+    position: absolute;
+    text-emphasis: wrap;
+}
+
+.image3 {
+    height: 275px;
+    width: 275px;
+    top: 715px;
+    right: 500px;
+    float: left;
+}
+.pittsburgh3 {
+    font-size: 35px;
+    top: 675px;
+    left: 300px;
+    padding: 5px;
+}
+
+.date3 {
+    top: 750px;
+    left: 300px;
+    padding: 5px;
+}
+
+.steelers3 {
+    left: 300px;
+    top: 825px;
+    float: right;
+    width: 650px;
+    height: auto;
+    padding: 5px;
+}
+.image4, .pittsburgh4, .date4, .steelers4 {
+    position: absolute;
+    padding: 5px;
+}
+.image4 {
+    height: 275px;
+    width: 275px;
+    float: left;
+    top: 1025px;
+    right: 495px;
+}
+
+.pittsburgh4 {
+    font-size: 35px;
+    top: 990px;
+    left: 300px;
+}
+
+.date4 {
+    top: 1065px;
+    left: 300px;
+}
+
+.steelers4 {
+    width: 675px;
+    height: auto;
+    left: 300px;
+    float: right;
+    top: 1140px;
+}
+
+.image1, .image2, .image3, .image4 {
+    z-index: -1;
+}
