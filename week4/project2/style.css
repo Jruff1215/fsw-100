@@ -1,0 +1,208 @@
+*{
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+.nav{
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 515px;
+    font-size: 7mm;
+    font-family: "Sansita swashed", cursive;
+}
+.image1 {
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+    z-index: -2;
+    opacity: 75%;
+    left: 400px;
+}
+.header {
+    color: whitesmoke;
+    position: absolute;
+    top: 40px;
+    left: 515px;
+    padding: 10px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 10mm;
+    background-color: transparent;
+    z-index: -1;
+}
+.p1 {
+    font-size: 12mm;
+    position: relative;
+    top: 350px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Great Vibes", cursive;
+    z-index: -1;
+    margin: 20px;
+    right: 25px;
+}
+.specialize {
+    color: ghostwhite;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    font-size: 5mm;
+    margin: 5px;
+    z-index: -1;
+}
+li {
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 685px;
+    margin: 10px;
+    z-index: -1;
+}
+.li1 {
+    position: absolute;
+    top: 525px;
+}
+.li2 {
+    position: absolute;
+    top: 550px;
+}
+.li3{
+    position: absolute;
+    top: 575px;
+}
+.inventory {
+    color: ghostwhite;
+    position: absolute;
+    top: 625px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: -1;
+    left: 605px;
+}
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table {
+    color: ghostwhite;
+    position: absolute;
+    top: 675px;
+    border: 1px, solid ghostwhite;
+    z-index: -1;
+    left: 325px;
+    bottom: 25px;
+    border-style: solid;
+    border-color: ghostwhite;
+    height: 935px;
+    width: 885px;
+}
+.hoodies {
+    position: absolute;
+    font-size: 10mm;
+    padding: 5px;
+    left: 70px;
+}
+.hoody1 {
+    position: absolute;
+    height: 250px;
+    width: 250;
+    top: 55px;
+    left: 10px;
+    padding: 5px;
+}
+.shirts {
+    position: absolute;
+    font-size: 10mm;
+    padding: 5px;
+    left: 385px;
+}
+.masks{
+    position: absolute;
+    font-size: 10mm;
+    padding: 5px;
+    left: 685px;
+}
+.shirts1 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: 300px;
+    top: 55px;
+    padding-top: 5px;
+}
+.masks1 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: 575px;
+    top: 35px;
+    padding: 25px;
+}
+.hoody2 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 350px;
+    left: 10px;
+}
+.shirts2 {
+    position: absolute;
+    height: 275px;
+    width: 255px;
+    top: 338px;
+    left: 300px;
+}
+.masks2 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 327px;
+    left: 575px;
+    padding: 25px;
+}
+.hoody3 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 650px;
+    left: 10px;
+}
+.shirts3 {
+    position: absolute;
+    height: 275px;
+    width: 255px;
+    top: 638px;
+    left: 300px;
+}
+.masks3 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 627px;
+    left: 575px;
+    padding: 25px;
+}
+footer {
+    color: ghostwhite;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 500px;
+    border: black;
+}
+.table2 {
+    height: 100px;
+    width: 950px;
+    position: absolute;
+    top: 1250px;
+    left: 260px;
+    bottom: 50px;
+}
+.overview {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
