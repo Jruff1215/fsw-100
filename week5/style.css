@@ -1,0 +1,82 @@
+html, body {
+    margin: 5px;
+    padding: 10px;
+}
+#grid-container {
+    display: grid;
+    height: 300px;
+    width: 100%;
+    grid-gap: 25px;
+    text-align: center;
+    grid-template-columns: repeat(16, 1fr);
+}
+#box1 {
+    background-color: black;
+    grid-column: 1/8;
+    border-radius: 10px;
+}
+#box2 {
+    background-color: red;
+    color: red;
+    grid-column: 8/16;
+    border-radius: 10px;
+}
+#box3 {
+    background: yellow;
+    color: yellow;
+    grid-column: 1/6;
+    border-radius: 10px;
+}
+#box4 {
+    background: teal;
+    color: teal;
+    grid-column: 6/16;
+    border-radius: 10px;
+}
+#box5 {
+    background: green;
+    color: green;
+    grid-column: 1/16;
+    border-radius: 10px;
+}
+#gridcontainer2 {
+    display: grid;
+    grid-gap: 25px;
+    text-align: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+}
+#box6 {
+    background: black;
+    grid-column: 1/10;
+    grid-row: 3/13;
+    border-radius: 10px;
+}
+#box7 {
+    background: red;
+    color: red;
+    grid-column: 1/4;
+    grid-row: 13/45;
+    border-radius: 10px;
+}
+#box8 {
+    background: yellow;
+    color: yellow;
+    grid-column: 4/10;
+    grid-row: 13/30;
+    border-radius: 10px;
+}
+#box9 {
+    background: teal;
+    color:  teal;
+    grid-column: 4/7;
+    grid-row: 30/45;
+    border-radius: 10px;
+}
+#box10 {
+    background: teal;
+    color: teal;
+    grid-column: 7/10;
+    grid-row: 30/45;
+    border-radius: 10px;
+}
