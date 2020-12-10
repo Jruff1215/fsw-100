@@ -1,0 +1,166 @@
+@media only screen and (max-width: 600px){
+body {
+    background-color: black;
+    color: blueviolet;
+    flex: 50%;
+    max-width: 50%;
+    font-family: 'Kaushan Script', cursive;
+}
+nav:hover {
+    background-color: blue;
+}
+}
+nav {
+    position: fixed;
+    font-size: 25px; 
+    background-color: white;
+    z-index: 2;
+}
+header > .name, .image1 {
+    position: absolute;
+}
+.name {
+    top: 65px;
+    left: 125px;
+    color: floralwhite;
+    font-family: 'henny penny', cursive;
+    padding: 20px;
+    font-size: 50px;
+    width: 500px;
+}
+.image1 {
+    height: 200px;
+    width: 600px;
+    z-index: -1;
+    top: 100px;
+    left: 25px;
+    padding: 20px;
+}
+main {
+    position: absolute;
+    padding: 5px;
+}
+.slogan {
+    font-size: 30px;
+    font-family: 'kaushan script', cursive;
+    position: absolute;
+    top: 350px;
+    width: 650px;
+}
+#table {
+    position: absolute;
+    top: 1135px;
+    text-align: center;
+    padding: 25px;
+    left: 50px;
+}
+.overview {
+    width: 175px;
+    padding: 10px;
+}
+.resources {
+    padding: 10px;
+}
+.contact {
+    padding: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-left: 25px;
+    padding-top: 425px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media only screen and (min-width: 600px){
+nav {
+    position: fixed;
+    font-size: 35px; 
+    font-family: 'Kaushan Script', cursive;
+}
+body {
+    background: black;
+}
+header > .name, .image1 {
+    position: absolute;
+}
+.name {
+    top: 100px;
+    left: 400px;
+    color: floralwhite;
+    font-family: 'henny penny', cursive;
+    padding: 20px;
+    font-size: 100px;
+}
+.image1 {
+    height: 500px;
+    width: 1250px;
+    z-index: -1;
+    top: 150px;
+    left: 150px;
+}
+main {
+    position: absolute;
+    padding: 20px;
+}
+.slogan {
+    font-size: 40px;
+    font-family: 'kaushan script', cursive;
+    position: absolute;
+    top: 650px;
+    width: 650px;
+    color: blueviolet;
+}
+#table {
+    position: absolute;
+    top: 2400px;
+    text-align: center;
+    padding: 25px;
+    left: 200px;
+    color: blueviolet;
+    width: 1000px;
+    z-index: 2;
+    border: blueviolet;
+    border-style: dotted;
+    font-size: 25px;
+}
+.overview {
+    width: 300px;
+    padding: 10px;
+}
+.resources {
+    margin: 10px;
+    width: 150px;
+
+}
+.contact {
+    padding: 10px;
+    margin: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-left: 25px;
+    padding-top: 750px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+}
