@@ -1,0 +1,216 @@
+@media only screen and (max-device-width: 700px){
+* {
+    margin: 1%;
+    font-family: "alex brush", cursive ;
+}
+nav {
+    font-size: 25px;
+    position: fixed;
+    width: 500px;
+    background: seashell;
+    z-index: 2;
+}
+.okbs {
+    font-size: 75px;
+    position: absolute;
+    top: 8.5cm;
+    width: 250px;
+}
+p {
+    font-size: 50px;
+    position: absolute;
+    top: 11.5cm;
+    padding: 15px;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-left: 25px;
+    padding-top: 500px;
+    top: 300px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    margin-top: 5px;
+    vertical-align: bottom;
+    width: 100%;
+    position: relative;
+}
+.image1 {
+    position: absolute;
+    height: 225px;
+    width: 550px;
+    top: 100px;
+    z-index: -1;
+}
+#table {
+    color: black;
+    position: absolute;
+    top: 1650px;
+}
+.overview {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+.resources {
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+}
+.contact {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+}
+@media only screen and (min-device-width: 700px) {
+* {
+    margin: 1%;
+    font-family: "alex brush", cursive;
+}
+nav {
+    font-size: 30px;
+    position: fixed;
+    width: 500px;
+    background: seashell;
+    z-index: 2;
+}
+.okbs {
+    font-size: 120px;
+    position: absolute;
+    top: 16cm;
+}
+.p1 {
+    font-size: 50px;
+    position: absolute;
+    top: 19cm;
+    padding: 15px;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-left: 25px;
+    padding-top: 650px
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    margin-top: 5px;
+    vertical-align: bottom;
+    width: 100%;
+    position: relative;
+}
+.image1 {
+    position: absolute;
+    height: 300px;
+    width: 750px;
+    top: 100px;
+    z-index: -1;
+}
+#table {
+    color: black;
+    position: absolute;
+    top: 2500px;
+}
+.overview {
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+.resources {
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+}
+.contact {
+    font-size: 25px;
+    width: 75px; 
+}
+.titles {
+    font-size: 35px;
+}
+}
+@media only screen and (min-device-width: 922px){
+* {
+        margin: 1%;
+        font-family: "alex brush", cursive;
+}
+nav {
+        font-size: 30px;
+        position: fixed;
+        width: 500px;
+        background: seashell;
+        z-index: 2;
+}
+.okbs {
+        font-size: 135px;
+        position: absolute;
+        top: 16cm;
+}
+.p1 {
+        font-size: 75px;
+        position: absolute;
+        top: 19cm;
+        padding: 15px;
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        align-items: stretch;
+        padding-left: 25px;
+        padding-top: 800px
+    }
+    .column {
+        flex: 25%;
+        max-width: 25%;
+    }
+    .column img {
+        margin-top: 5px;
+        vertical-align: bottom;
+        width: 100%;
+        position: relative;
+    }
+    .image1 {
+        position: absolute;
+        height: 500px;
+        width: 85%;
+        top: 100px;
+        z-index: -1;
+    }
+    #table {
+        color: black;
+        position: absolute;
+        top: 3750px;
+    }
+    .overview {
+        font-size: 35px;
+        text-align: center;
+        width: 50%;
+    }
+    .resources {
+        font-size: 35px;
+        text-align: center;
+        width: 30%;
+    }
+    .contact {
+        font-size: 35px;
+        width: 100px; 
+    } 
+    .titles {
+        font-size: 40px;
+    }   
+}
