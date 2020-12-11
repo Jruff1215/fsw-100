@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 body {
     background-color: black;
     color: blueviolet;
@@ -81,11 +81,14 @@ main {
     vertical-align: middle;
     width: 100%;
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 700px){
 nav {
     position: fixed;
     font-size: 35px; 
     font-family: 'Kaushan Script', cursive;
+}
+nav:hover {
+    background: blue;
 }
 body {
     background: black;
@@ -95,11 +98,12 @@ header > .name, .image1 {
 }
 .name {
     top: 100px;
-    left: 400px;
+    left: 300px;
     color: floralwhite;
     font-family: 'henny penny', cursive;
     padding: 20px;
-    font-size: 100px;
+    font-size: 125px;
+    width: 1000px;
 }
 .image1 {
     height: 500px;
@@ -122,7 +126,7 @@ main {
 }
 #table {
     position: absolute;
-    top: 2400px;
+    top: 2800px;
     text-align: center;
     padding: 25px;
     left: 200px;
