@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 * {
     margin: 5px;
 }
@@ -32,7 +32,7 @@ main  {
     top: 250px;
 }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 * {
     margin: 5px;
 }
